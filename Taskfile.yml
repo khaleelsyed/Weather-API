@@ -1,0 +1,21 @@
+version: '3'
+
+vars:
+  BINARY_NAME: goBasicTemplate
+
+dotenv: ['.env']
+
+tasks:
+  build:
+    cmds:
+      - go build -o .bin/{{.BINARY_NAME}}
+  
+  run: 
+    cmds:
+      - task: build
+      - ./.bin/{{.BINARY_NAME}}
+  
+  test:
+    cmds:
+      - task: build
+      - go test -v ./...
