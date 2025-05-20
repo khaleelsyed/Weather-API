@@ -1,11 +1,3 @@
-# GoBasic Template
+# Weather-API
 
-Template repository to bootstrapping a go project.
-
-## Getting Started
-
-1. Create a repository using this template and clone locally
-
-2. Run `bash setup_template.sh`
-
-3. Edit project metadata as needed
+Implementation of the project [Weather API](https://roadmap.sh/projects/weather-api-wrapper-service) defined on roadmap.sh
