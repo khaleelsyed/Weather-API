@@ -4,4 +4,4 @@ Implementation of the project [Weather API](https://roadmap.sh/projects/weather-
 
 ## TODO
 
-[ ] Rate limiting
+- [ ] Rate limiting
